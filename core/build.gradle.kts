@@ -21,6 +21,16 @@ kotlin {
         target("mingwX64")
     }
 
+    iosArm64()
+    iosSimulatorArm64()
+    iosX64()
+    watchosArm64()
+    watchosSimulatorArm64()
+    watchosX64()
+    tvosArm64()
+    tvosSimulatorArm64()
+    tvosX64()
+
     js {
         moduleName = "${rootProject.name}-${project.name}"
         nodejs {
